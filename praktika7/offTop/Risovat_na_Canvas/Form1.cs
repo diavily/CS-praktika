@@ -52,7 +52,7 @@ namespace WindowsFormsApp1
     {
       // Stretches the image to fit the pictureBox.
       Bitmap MyImage;
-      string fileToDisplay = @"D:\temp\1.jpg";
+      string fileToDisplay = @"1.jpg";
       pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
       MyImage = new Bitmap(fileToDisplay);
